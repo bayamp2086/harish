@@ -13,4 +13,11 @@ public class StringUtilsTests {
         Reporter.log("The reverse of input string :" + input +" is :" + reverse,true);
     }
 
+    @Test
+    public void negativeTest() {
+        String input = "bayamp";
+        String reverse = StringUtils.reverseString(input);
+        Reporter.log("The reverse of input string :" + input +" is :" + reverse,true);
+    }
+
 }
